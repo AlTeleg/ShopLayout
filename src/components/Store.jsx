@@ -10,7 +10,6 @@ import ListView from "./ListView"
     this.state = {
       selectedLayout: 'view_module'
     };
-    // this.onSwitch = this.onSwitch.bind(this);
   }
 
   onSwitch = () => {
