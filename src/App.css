@@ -80,8 +80,8 @@
 .view_module {
     font-size: 35px;
     position: absolute;
-    top: -80px;
-    right: -10px;
+    top: -70px;
+    right: 0px;
     color:rgb(100, 100, 100);
     cursor: pointer;
     user-select: none;

@@ -24,7 +24,7 @@ import ListView from "./ListView"
 
     return (
       <div className='shop-div'>
-        <IconSwitch icon={selectedLayout} onSwitch={this.onSwitch}/>
+        <IconSwitch icon={selectedLayout === 'view_module' ? 'view_list' : 'view_module'} onSwitch={this.onSwitch}/>
         {selectedLayout === 'view_module' ? (
           <CardsView cards={products} />
         ) : (
